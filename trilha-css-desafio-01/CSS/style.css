@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+body { overflow-x: hidden; }
+
+.banner{   
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,32,41,1) 49%, rgba(0,0,0,1) 100%);
+    width: 1440px;
+    border-bottom: 1px solid aqua;
+}
+
+.banner-content{
+    background-image: url(../assets/images/banner.png);   
+    background-position: center center;
+    height: 605px;
+}
+
+.logo{
+    width: 268px; 
+    height: 214px;
+    margin: auto;
+    background-color:rgba(0, 0, 0, 0.2);
+    border-radius: 100%;
+    padding: 25px 0 25px 0;
+}
+
+h1{
+    color: rgba(51, 168, 219, 1);
+    font-size: 40px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.banner-content>p{
+    padding: 15px 0 20px 0;
+    color: white;
+    max-width: 434px;
+    margin: auto;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+button{
+    width: 326px;
+    height: 57px;
+    color: rgba(49, 168, 221, 1);
+    text-transform: uppercase;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 19px;
+    letter-spacing: 0.21em;
+    text-align: center;
+    background: none;
+    border: 2px solid;
+    cursor: pointer;
+}
+
+#course-content{
+    background-color: black;
+    color: white;
+    width: 1440px;
+    height: 515px;
+    top: 723px;
+    left: 324px;
+    gap: 24px;
+    border-bottom: 1px solid rgba(51, 168, 219, 1);
+    
+}
+
+h2{
+    color: rgba(51, 168, 219, 1);
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 19px;
+    letter-spacing: 0.21em;
+    padding: 70px 0 30px 0;
+}
+
+#course-content>p{
+    margin: auto;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 760px;
+    height: 38px;
+    padding-bottom: 30px;
+
+}
+
+.module{
+    margin: auto;
+    width: 535px;
+    height: 51px;
+    padding: 16px, 127px;
+    border-radius: 57px;
+    border: 1px solid rgba(51, 168, 219, 1);
+    background: rgba(37, 37, 37, 1);
+    margin-bottom: 19px;
+    justify-content: center;    
+    display: flex;
+    align-items: center;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+
+}
+
+span{
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    padding-right: 4px;
+    color: rgba(51, 168, 219, 1) ;
+}
+
+#transform-world{
+    height: 320px;
+    width: 1440px;
+    border-bottom: 1px solid rgba(51, 168, 219, 1);
+    background-image: url(../assets/images/woman-code.png);
+    background-size: cover;
+    background-attachment: fixed;
+    position:absolute;
+}
+
+#transform-world>p{
+    text-transform: lowercase;
+    font-weight: bolder;
+    font-size: 30px;
+    text-align: left;
+    margin: 0;
+    width: 180px;
+    color: white;
+    margin: 7% 10%;
+    font-family: Raleway;
+    text-shadow: 3px 2px 0px rgba(51, 168, 219, 1);
+    line-height: 43px
+}
+
+#professional-challenges{
+    padding-top: 300px;
+    width: 1440px;
+    background-color: black;
+    border-bottom: 1px solid rgba(51, 168, 219, 1);
+}
+
+#professional-challenges>h2{
+    font-family: Raleway;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0.19em;
+    text-align: center;
+    margin: auto;
+    width: 900px;
+}
+
+#professional-challenges>p{
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: center;
+    color: white;
+    padding-bottom: 80px;
+    width: 800px;
+    text-align: center;
+    margin: auto;
+
+}
+
+footer{
+    padding-top: 50px;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,32,41,1) 49%, rgba(0,0,0,1) 100%);
+    width: 1440px;
+    height:170px 
+}
+
+footer>p{
+    color: white;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+a{
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(51, 168, 219, 1);
+    text-decoration: none;
+}
