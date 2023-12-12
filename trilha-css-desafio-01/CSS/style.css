@@ -12,7 +12,7 @@ body { overflow-x: hidden; }
 .banner{   
     background: rgb(0,0,0);
     background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,32,41,1) 49%, rgba(0,0,0,1) 100%);
-    width: 1440px;
+    width: 100vw;
     border-bottom: 1px solid aqua;
 }
 
@@ -66,7 +66,7 @@ button{
 #course-content{
     background-color: black;
     color: white;
-    width: 1440px;
+    width: 100vw;
     height: 515px;
     top: 723px;
     left: 324px;
@@ -131,7 +131,7 @@ span{
 
 #transform-world{
     height: 320px;
-    width: 1440px;
+    width: 100vw;
     border-bottom: 1px solid rgba(51, 168, 219, 1);
     background-image: url(../assets/images/woman-code.png);
     background-size: cover;
@@ -155,7 +155,7 @@ span{
 
 #professional-challenges{
     padding-top: 300px;
-    width: 1440px;
+    width: 100vw;
     background-color: black;
     border-bottom: 1px solid rgba(51, 168, 219, 1);
 }
@@ -188,7 +188,7 @@ span{
 footer{
     padding-top: 50px;
     background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,32,41,1) 49%, rgba(0,0,0,1) 100%);
-    width: 1440px;
+    width: 100vw;
     height:170px 
 }
 
